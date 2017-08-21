@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		693394211F466F1B00CAB9BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693394201F466F1B00CAB9BF /* AppDelegate.swift */; };
+		693394231F466F1B00CAB9BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693394221F466F1B00CAB9BF /* ViewController.swift */; };
+		693394261F466F1B00CAB9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693394241F466F1B00CAB9BF /* Main.storyboard */; };
+		693394281F466F1B00CAB9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693394271F466F1B00CAB9BF /* Assets.xcassets */; };
+		6933942B1F466F1B00CAB9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693394291F466F1B00CAB9BF /* LaunchScreen.storyboard */; };
+		693394351F466F5D00CAB9BF /* JohnCk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693394341F466F5D00CAB9BF /* JohnCk.swift */; };
+		695A8FF11F46CC55002C842F /* JohnLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8FF01F46CC55002C842F /* JohnLoop.swift */; };
+		6991C7751F46D6590049761F /* JohnClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6991C7741F46D6590049761F /* JohnClock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6933941D1F466F1B00CAB9BF /* JohnClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		693394201F466F1B00CAB9BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		693394221F466F1B00CAB9BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		693394251F466F1B00CAB9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		693394271F466F1B00CAB9BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6933942A1F466F1B00CAB9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6933942C1F466F1B00CAB9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693394341F466F5D00CAB9BF /* JohnCk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnCk.swift; sourceTree = "<group>"; };
+		695A8FF01F46CC55002C842F /* JohnLoop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnLoop.swift; sourceTree = "<group>"; };
+		6991C7741F46D6590049761F /* JohnClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JohnClock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6933941A1F466F1B00CAB9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		693394141F466F1B00CAB9BF = {
+			isa = PBXGroup;
+			children = (
+				6933941F1F466F1B00CAB9BF /* JohnClock */,
+				6933941E1F466F1B00CAB9BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6933941E1F466F1B00CAB9BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6933941D1F466F1B00CAB9BF /* JohnClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6933941F1F466F1B00CAB9BF /* JohnClock */ = {
+			isa = PBXGroup;
+			children = (
+				693394331F466F3B00CAB9BF /* JohnClock */,
+				693394201F466F1B00CAB9BF /* AppDelegate.swift */,
+				693394221F466F1B00CAB9BF /* ViewController.swift */,
+				693394321F466F2F00CAB9BF /* SuppoerFile */,
+			);
+			path = JohnClock;
+			sourceTree = "<group>";
+		};
+		693394321F466F2F00CAB9BF /* SuppoerFile */ = {
+			isa = PBXGroup;
+			children = (
+				693394241F466F1B00CAB9BF /* Main.storyboard */,
+				693394271F466F1B00CAB9BF /* Assets.xcassets */,
+				693394291F466F1B00CAB9BF /* LaunchScreen.storyboard */,
+				6933942C1F466F1B00CAB9BF /* Info.plist */,
+			);
+			name = SuppoerFile;
+			sourceTree = "<group>";
+		};
+		693394331F466F3B00CAB9BF /* JohnClock */ = {
+			isa = PBXGroup;
+			children = (
+				693394341F466F5D00CAB9BF /* JohnCk.swift */,
+				695A8FF01F46CC55002C842F /* JohnLoop.swift */,
+				6991C7741F46D6590049761F /* JohnClock.swift */,
+			);
+			name = JohnClock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6933941C1F466F1B00CAB9BF /* JohnClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6933942F1F466F1B00CAB9BF /* Build configuration list for PBXNativeTarget "JohnClock" */;
+			buildPhases = (
+				693394191F466F1B00CAB9BF /* Sources */,
+				6933941A1F466F1B00CAB9BF /* Frameworks */,
+				6933941B1F466F1B00CAB9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JohnClock;
+			productName = JohnClock;
+			productReference = 6933941D1F466F1B00CAB9BF /* JohnClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		693394151F466F1B00CAB9BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "www.bthdtm.com 豪德天沐移动事业部";
+				TargetAttributes = {
+					6933941C1F466F1B00CAB9BF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = KJN6G527NM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 693394181F466F1B00CAB9BF /* Build configuration list for PBXProject "JohnClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 693394141F466F1B00CAB9BF;
+			productRefGroup = 6933941E1F466F1B00CAB9BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6933941C1F466F1B00CAB9BF /* JohnClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6933941B1F466F1B00CAB9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6933942B1F466F1B00CAB9BF /* LaunchScreen.storyboard in Resources */,
+				693394281F466F1B00CAB9BF /* Assets.xcassets in Resources */,
+				693394261F466F1B00CAB9BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		693394191F466F1B00CAB9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693394231F466F1B00CAB9BF /* ViewController.swift in Sources */,
+				693394351F466F5D00CAB9BF /* JohnCk.swift in Sources */,
+				6991C7751F46D6590049761F /* JohnClock.swift in Sources */,
+				695A8FF11F46CC55002C842F /* JohnLoop.swift in Sources */,
+				693394211F466F1B00CAB9BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		693394241F466F1B00CAB9BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693394251F466F1B00CAB9BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		693394291F466F1B00CAB9BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6933942A1F466F1B00CAB9BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6933942D1F466F1B00CAB9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6933942E1F466F1B00CAB9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		693394301F466F1B00CAB9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KJN6G527NM;
+				INFOPLIST_FILE = JohnClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holdtime.JohnClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		693394311F466F1B00CAB9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KJN6G527NM;
+				INFOPLIST_FILE = JohnClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holdtime.JohnClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		693394181F466F1B00CAB9BF /* Build configuration list for PBXProject "JohnClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6933942D1F466F1B00CAB9BF /* Debug */,
+				6933942E1F466F1B00CAB9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6933942F1F466F1B00CAB9BF /* Build configuration list for PBXNativeTarget "JohnClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693394301F466F1B00CAB9BF /* Debug */,
+				693394311F466F1B00CAB9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 693394151F466F1B00CAB9BF /* Project object */;
+}
